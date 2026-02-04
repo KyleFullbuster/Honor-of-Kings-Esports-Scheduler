@@ -1,0 +1,118 @@
+{
+    "events": [
+        {
+            "name": "🏆 Práctica",
+            "start": "2026-01-08T20:45:00",
+            "end": "2026-01-08T21:30:00",
+            "resources": [
+                "Jugador1 (Top/Clash)",
+                "Jugador2 (Jungle)",
+                "Jugador3 (Mid)",
+                "Jugador4 (ADC/Farm)",
+                "Jugador5 (Support/Roam)",
+                "Héroe: Mai Shiranui (Assassin/Mage)",
+                "Héroe: Arthur (Fighter/Tank/Top)",
+                "Héroe: Dolia (Support/Roam)",
+                "Héroe: Garo (Marksman/ADC)",
+                "Héroe: Li Xin (Fighter/Jungle)",
+                "Sala de Práctica 1",
+                "Dispositivo Android Pro"
+            ]
+        },
+        {
+            "name": "Zhang Fei",
+            "start": "2026-01-09T18:00:00",
+            "end": "2026-01-09T19:00:00",
+            "resources": [
+                "Jugador1 (Top/Clash)",
+                "Jugador2 (Jungle)",
+                "Jugador3 (Mid)",
+                "Jugador4 (ADC/Farm)",
+                "Jugador5 (Support/Roam)",
+                "Héroe: Alessio (Marksman/ADC)",
+                "Héroe: Allain (Fighter/Top)",
+                "Héroe: Angela (Mage/Support)",
+                "Héroe: Yao (Fighter/Jungle)",
+                "Héroe: Gao (Mage/Mid)",
+                "Sala de Práctica 1",
+                "Dispositivo Android Pro"
+            ]
+        },
+        {
+            "name": "team ash",
+            "start": "2026-01-31T18:00:00",
+            "end": "2026-01-31T18:45:00",
+            "resources": [
+                "Jugador1 (Top/Clash)",
+                "Jugador2 (Jungle)",
+                "Jugador3 (Mid)",
+                "Jugador4 (ADC/Farm)",
+                "Jugador5 (Support/Roam)",
+                "Héroe: Alessio (Marksman/ADC)",
+                "Héroe: Angela (Mage/Support)",
+                "Héroe: Ata (Tank/Top)",
+                "Héroe: Yao (Fighter/Jungle)",
+                "Héroe: Daji (Mage/Mid)",
+                "Sala de Práctica 1",
+                "Dispositivo Android Pro"
+            ]
+        },
+        {
+            "name": "TeamFight4",
+            "start": "2026-02-04T09:00:00",
+            "end": "2026-02-04T09:45:00",
+            "resources": [
+                "Jugador1 (Top/Clash)",
+                "Jugador2 (Jungle)",
+                "Jugador3 (Mid)",
+                "Jugador4 (ADC/Farm)",
+                "Jugador5 (Support/Roam)",
+                "Héroe: Liu Shan (Tank/Support/Roam)",
+                "Héroe: Di Renjie (Marksman/ADC)",
+                "Héroe: Lu Bu (Tank/Fighter/Top)",
+                "Héroe: Gao (Mage/Mid)",
+                "Héroe: Yao (Fighter/Jungle)",
+                "Sala de Práctica 1",
+                "Dispositivo Android Pro"
+            ]
+        }
+    ],
+    "last_updated": "2026-02-04T07:09:30.170714",
+    "total_eventos": 4,
+    "restricciones_implementadas": [
+        "CO-REQUISITO: Héroe Lam requiere Jugador2 (Jungle)",
+        "CO-REQUISITO: Héroe Li Bai requiere Jugador2 (Jungle)",
+        "CO-REQUISITO: Héroe Ao Yin requiere Jugador4 (ADC/Farm)",
+        "CO-REQUISITO: Héroe Marco Polo requiere Jugador4 (ADC/Farm)",
+        "CO-REQUISITO: Héroe Daji requiere Jugador3 (Mid)",
+        "CO-REQUISITO: Héroe Kongming requiere Jugador3 (Mid)",
+        "CO-REQUISITO: Héroe Augran requiere Jugador1 (Top/Clash)",
+        "CO-REQUISITO: Héroe Yaria requiere Jugador5 (Support/Roam)",
+        "CO-REQUISITO: Coach Principal requiere Dispositivo Android Pro",
+        "CO-REQUISITO: Sala de Práctica 1 requiere Dispositivo Android Pro",
+        "CO-REQUISITO: Sala de Práctica 2 requiere Dispositivo Android Pro",
+        "CO-REQUISITO: Sala de Torneo (VIP) requiere Estación de Transmisión",
+        "CO-REQUISITO: Sala de Torneo (VIP) requiere Área de Prensa",
+        "CO-REQUISITO: Sala de Duelo 1v1 requiere Dispositivo Android Elite",
+        "EXCLUSIÓN: Lam no puede jugar con Li Bai (mismo rol Jungle)",
+        "EXCLUSIÓN: Daji no puede jugar con Kongming (mid mages conflictivos)",
+        "EXCLUSIÓN: Ao Yin no puede jugar con Marco Polo (ADC premium)",
+        "EXCLUSIÓN: Dispositivo Pro no puede usarse con Dispositivo Elite",
+        "EXCLUSIÓN: Solo UNA sala puede usarse por evento",
+        "REGLA: Mínimo 1 jugador por evento",
+        "REGLA: Mínimo 1 instalación por evento",
+        "REGLA: Misma cantidad de héroes que jugadores",
+        "REGLA: Nombre único para cada evento",
+        "REGLA: En eventos importantes (scrim/torneo), jugadores DEBEN usar héroes de su posición",
+        "REGLA: En eventos no importantes (1v1/práctica/análisis), sin restricción de posición"
+    ],
+    "version": "7.2",
+    "corrections": [
+        "Eliminado 'Loong' (no oficial)",
+        "Agregada restricción para Ao Yin",
+        "Sincronizadas todas las restricciones",
+        "Mejorada documentación",
+        "CORREGIDO: find_next_slot ahora evita huecos en el pasado",
+        "CORREGIDO: Manejo de tiempo mejorado para búsquedas"
+    ]
+}
