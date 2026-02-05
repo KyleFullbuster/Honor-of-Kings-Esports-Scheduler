@@ -93,7 +93,7 @@ Implementadas **EXACTAMENTE** como se solicita en el proyecto. Ejemplos:
 Interfaz profesional en tema oscuro con acentos dorados y diseño responsive.
 
 **Dashboard Principal y navegación por tabs**  
-![Dashboard Principal](screenshots/screenshot-main-interface\02.png)
+![Dashboard Principal](screenshots/screenshot-main-interface-02.png)
 
 **Formulario completo para crear un evento**  
 ![Agregar Evento - Formulario](screenshots/screenshot-create-event.png)
