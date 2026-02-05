@@ -87,3 +87,23 @@ Implementadas **EXACTAMENTE** como se solicita en el proyecto. Ejemplos:
 1. **Clonar/Descargar los archivos:**
    - Copia los archivos en una carpeta local.
 2. **Instalar dependencias:**
+
+## 📸 Capturas de Pantalla
+
+Interfaz profesional en tema oscuro con acentos dorados y diseño responsive.
+
+**Dashboard Principal y navegación por tabs**  
+![Dashboard Principal](screenshots/screenshot-main-interface\02.png)
+
+**Formulario completo para crear un evento**  
+![Agregar Evento - Formulario](screenshots/screenshot-create-event.png)
+
+**Sección Eliminar Evento (estado vacío)**  
+![Eliminar Evento - Sin eventos futuros](screenshots/screenshot-delete-event.png)
+
+**Dashboard de Sistema y Configuración (v7.2)**  
+Muestra conteo de restricciones, recursos, héroes (111), eventos y botón de recarga.  
+![Sistema y Configuración](screenshots/screenshot-system-configuration-dashboard.png)
+
+**Ejemplo de Detalles de Evento**  
+![Detalles de Evento](screenshots/screenshot-event-details.png)
